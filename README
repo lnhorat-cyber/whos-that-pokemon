@@ -1,0 +1,17 @@
+# Who's That Pokémon?
+
+Browser-Version des Pokémon-Ratespiels mit Streamlit.
+
+## Lokal starten
+
+```bash
+python -m pip install -r requirements.txt
+python -m streamlit run streamlit_app.py
+```
+
+## Online veröffentlichen
+
+1. Lade `streamlit_app.py`, `requirements.txt` und `README.md` in dein GitHub-Repository hoch.
+2. Öffne https://share.streamlit.io/ und melde dich mit GitHub an.
+3. Erstelle eine App, wähle dein Repository und als Hauptdatei `streamlit_app.py`.
+4. Klicke auf Deploy.
